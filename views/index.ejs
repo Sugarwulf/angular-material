@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ang-material</title>
+  <meta charset="utf-8">
+  <base href="/" />
+<!--  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<div ng-controller="ang_material" ng-app="ang_material">
+
+
+<div>
+
+        <h1>ang-material</h1>
+
+          <a href="/">Home</a> /
+          <a href="/about">About</a>
+
+  </div>
+        <hr />
+
+        <div layout="column">
+          <div flex="75" height="100">
+          First Column
+          </div>
+
+          <div flex="25" background-color="light green" height="100">
+          Second Column
+          </div>
+
+
+
+        </div>
+        <ui-view></ui-view>
+
+  <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+  <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="/bower_components/angular-touch/angular-touch.min.js"></script>
+  <script src="/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="bower_components/angular-material/angular-material.js"></script>
+  <script src="bower_components/angular-aria/angular-aria.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.js"></script>
+
+  <script src="/ngApp/app.js"></script>
+  <script src="/ngApp/controllers/controllers.js"></script>
+  <script src="/ngApp/services/services.js"></script>
+
+</div>
+
+</html>
